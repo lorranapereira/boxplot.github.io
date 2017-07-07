@@ -1,0 +1,105 @@
+
+div.corpo {
+  max-width: 1000px;
+}
+div.y {
+  position: absolute;
+  height: 45%;
+  top: 10em;
+  border-style: solid;
+  border-color: #0000;
+}
+div.x {
+  position: absolute;
+  width: 35%;
+  top: 29em;
+  border-style: solid;
+  border-color: #0000;
+}
+div.boxplot {
+  position: absolute;
+  height: 20%;
+  width: 10%;
+  top: 15em;
+  left: 5%;
+  background-color: silver;
+  border-style: solid;
+  border-color: #0000;
+}
+div.boxplot div.fim1 {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  height: 2%;
+  background-color: black;
+  top:-4.2em;
+  left: 5%;
+}
+div.boxplot div.maximo {
+  position: absolute;
+  margin: auto;
+  height: 50%;
+  width: 5%;
+  background-color: black;
+  top:-4.2em;
+  left: 50%;
+}
+div.boxplot div.fim1 div.valor_maximo, div.boxplot div.fim2 div.valor_minimo {
+  position: relative;
+  top:-0.5em;
+  left: 110%;
+}
+
+div.boxplot div.quartil11 {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  height: 2%;
+  background-color: black;
+  top:4em;
+
+}
+div.boxplot div.quartil1 {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  height: 2%;
+  left: 115%;
+  top:3.5em;
+
+}
+div.boxplot div.minimo {
+  position: absolute;
+  margin: auto;
+  height: 50%;
+  width: 5%;
+  background-color: black;
+  top:8.3em;
+  left: 50%;
+}
+div.boxplot div.fim2 {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  height: 2%;
+  background-color: black;
+  top:12.3em;
+  left: 5%;
+}
+div.boxplot div.quartil22 {
+  position: absolute;
+  left: 115%;
+  top:3.5em;
+}
+div.boxplot div.quartil33 {
+  position: absolute;
+  left: 115%;
+  top:0.1em;
+}
+div.valores p {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+div.valores p:not(:last-child)::after {
+  content: ',';
+}
